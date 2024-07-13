@@ -8,10 +8,10 @@ const StickyCta = () => {
     <>
     <div className='sticky-elm-blk'>
         <div className='call-stck'>
-            <Link href="tel:+9710034567"><Image src={callstickyicon} width={30} height={30} /></Link>
+            <Link href="tel:971526780437"><Image src={callstickyicon} width={30} height={30} /></Link>
         </div>
         <div className='call-stck'>
-        <Link href="#"><Image src={whatsstickyicon} width={30} height={30} /></Link>
+        <Link href="https://api.whatsapp.com/send?phone=971526780437" target="_blank"><Image src={whatsstickyicon} width={30} height={30} /></Link>
         </div>
     </div>
     </>

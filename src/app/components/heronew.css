@@ -110,7 +110,7 @@ p.hero-new-serv-blk-p {
 
 @media (max-width:576px) {
     .her-blk-row>*{
-        width: 50%;
+        width: 50% !important;
     }
     
 }

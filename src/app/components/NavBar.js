@@ -45,7 +45,7 @@ const NavBar = () => {
                     </div>
 
                     <div className='nav-cta'>
-                    <Link href="tel:+97156453455"><Image src={callicon} alt="call icon" width={22} height={22} /> <span className='telnum'>+971 56453455</span></Link>
+                    <Link href="tel:971526780437"><Image src={callicon} alt="call icon" width={22} height={22} /> <span className='telnum'>+971 52 678 0437</span></Link>
                     </div>
                 </div>
             </nav>
