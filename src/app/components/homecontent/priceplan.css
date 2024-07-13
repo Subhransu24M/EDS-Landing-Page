@@ -1,0 +1,48 @@
+.prc-pln-tp-blk {
+    text-align: center;
+    padding: 30px;
+}
+.prc-pln-span {
+    background: #e5e5e5;
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: #2f2f62;
+    font-weight: 500;
+    font-size: 15px;
+}
+.prc-pln-hd {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.prc-blk {
+    background: #f7f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+.prc-blk-hd-fr {
+    color: #272750;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.prc-pln-p {
+    color: #d7d0e9;
+}
+.prc-btn {
+    text-align: center;
+    background: #25255c;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+.prc-btn a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.prc-mainblk {
+    padding: 50px 0px;
+    background: linear-gradient(90deg, #212140 60%, #b32929 113%);
+}

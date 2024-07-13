@@ -1,0 +1,22 @@
+/* body:before {
+  background-image: url(../app/bg-image/bg2.png);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50%;
+} */
+/* body{
+  background-color: black !important;
+} */
+
+body{
+  background-color: #ffffff !important;
+}

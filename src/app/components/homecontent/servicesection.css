@@ -1,0 +1,48 @@
+.serv-bg {
+    background: radial-gradient(circle, rgb(100 85 159) 0%, rgb(179 173 221 / 77%) 0%, rgb(255 255 255) 55%);
+}
+.serv-sec-blk{
+    padding: 50px 0px;
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0.6082808123249299) 0%, rgba(7, 1, 51, 0.7707457983193278) 0%, rgba(14, 12, 34, 1) 55%); */
+
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23E8DAFF' d='M55.4,-60.4C70.4,-53.5,80,-34.6,75.4,-19.4C70.8,-4.2,51.8,7.3,40,18.7C28.2,30,23.6,41.1,13,52.1C2.3,63.1,-14.3,74.1,-24.7,69.6C-35.1,65.1,-39.2,45,-45.4,28.9C-51.6,12.7,-59.8,0.3,-61,-13.8C-62.2,-28,-56.2,-43.9,-44.9,-51.5C-33.5,-59.1,-16.8,-58.4,1.7,-60.4C20.2,-62.5,40.4,-67.4,55.4,-60.4Z' transform='translate(100 100)' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.serv-sec-blk h5 {
+    text-align: center;
+    color: #000000b8;
+    font-weight: 600;
+}
+ul.dgm-soln-ul li {
+    font-size: 15px;
+}
+
+.soln-blk {
+    background: #f1f0fd91;
+    padding: 20px;
+    height: 232px;
+    overflow: auto;
+    border-radius: 10px;
+    margin: 10px 0px;
+  height: 250px;
+  overflow-y: scroll;
+  scrollbar-color: rgb(21 23 84) rgb(203 208 229);
+}
+.soln-blk h5 {
+    text-align: center;
+    border-bottom: 1px solid #3b3fd72e;
+    padding-bottom: 10px;
+}
+.serv-blk-hd-snd{
+    /* background: linear-gradient(55deg, #7373ed, #f580809e); */
+    background: linear-gradient(55deg, #05054a, #ab1a1a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0px 10px;
+    text-align: center;
+}

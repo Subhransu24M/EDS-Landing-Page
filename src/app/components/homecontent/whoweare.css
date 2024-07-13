@@ -1,0 +1,44 @@
+.whoweare-img-blk {
+    display: flex;
+}
+.analyimg {
+    position: relative;
+    left: -60px;
+    top: 44px;
+    z-index: -1;
+    border-radius: 8px;
+}
+.whoweare-img img {
+    max-width: 100%;
+    height: auto;
+}
+.whoweare-main-blk{
+    padding: 50px 0px;
+}
+
+.wh-o-r-blk{
+    background: #e5e5e5;
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: #2f2f62;
+    font-weight: 500;
+    font-size: 15px;
+}
+.whr-snd{
+    font-size: 44px;
+    color: #272750;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.wht-we-r-ul{
+    list-style: none;
+    padding: 0px;
+}
+.whtwericn{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #272750;
+}
+.whtweriblk {
+    display: flex;
+}
