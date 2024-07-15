@@ -9,9 +9,14 @@ const Priceplan = () => {
             <span className='prc-pln-span'>Flexible Pricing</span>
             <h2 className='prc-pln-hd'>Flexible pricing plans. Any scale.</h2>
             <p className='prc-pln-p'>Whether you have a startup,small, medium and large business, we have a plan that aligns perfectly with your goals.</p>
+            <div className='flex-btn-grp'>
+            <Link className="prcbtn" href="#">Chat with us</Link>
+            <Link className="prcbtn" href="#">Let's Discuss</Link>
             </div>
             
-            <div className='row'>
+            </div>
+            
+            {/* <div className='row'>
                  <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                     <div className='prc-blk'>
                         <h4 className='prc-blk-hd-fr'>Startup</h4>
@@ -48,8 +53,9 @@ const Priceplan = () => {
                         </div>
                     </div>
                  </div>
-            </div>
+            </div> */}
         </div>
+
      </div>
     </>
   )

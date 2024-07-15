@@ -1,0 +1,28 @@
+.inds-sndhd {
+    font-size: 44px;
+    color: #272750;
+    font-weight: 600;
+    margin: 20px 0px;
+    text-align: center;
+}
+.inds-blk {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-right: 1px solid #dfdfdf;
+    padding: 30px 0px
+}
+.inds-blk:hover{
+    background: grey;
+}
+.inds-icon-p {
+    margin: 10px 0px;
+}
+.inds-blk-icon img {
+    width: 45px;
+    height: 45px;
+}
+.industry-work-blk {
+    padding: 50px 0px;
+}

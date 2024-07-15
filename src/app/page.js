@@ -8,6 +8,9 @@ import Whoweare from './components/homecontent/Whoweare';
 import Whatwedo from './components/homecontent/Whatwedo';
 import Priceplan from './components/homecontent/Priceplan';
 import StickyCta from './components/stickyelement/StickyCta';
+import Blobanm from './components/blob/Blobanm';
+import Industry from './components/homecontent/Industry';
+import Footer from './components/footer/Footer';
 
 export const metadata = {
   title: "Create Next App",
@@ -23,6 +26,9 @@ export default function Home() {
       <Whatwedo/>
       <Priceplan/>
       <StickyCta/>
+      <Industry/>
+      <Footer/>
+      
       
 
       {/* <Hero/> */}

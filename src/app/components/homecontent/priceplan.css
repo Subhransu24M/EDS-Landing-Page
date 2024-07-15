@@ -46,3 +46,28 @@
     padding: 50px 0px;
     background: linear-gradient(90deg, #212140 60%, #b32929 113%);
 }
+
+.prcbtn {
+    text-decoration: none;
+    color: #000;
+    margin: 0px 10px;
+    background: #fff;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 1px 1px #131638;
+}
+.flex-btn-grp{
+    margin: 50px 0px;   
+}
+.prc-mainblk::before{
+    content: '';
+    background-image: url(/_next/static/media/badge.95974d78.webp);
+    opacity: 0.1;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
