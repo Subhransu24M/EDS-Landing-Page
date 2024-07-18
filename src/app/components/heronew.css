@@ -36,12 +36,17 @@
     padding: 5px 0px 20px 0px;
 } */
 .hero-new-serv-blk {
-    background: #fff;
+    /* background: #fff; */
     padding: 20px 8px;
     text-align: center;
     margin: 10px 0px;
-    box-shadow: 0px 0px 3px 1px #00000052;
-    border-radius: 8px;
+    /* box-shadow: 0px 0px 3px 1px #00000052; */
+    /* border-radius: 8px; */
+
+    background: #c9daff91;
+    border-radius: 100%;
+    box-shadow: inset 4px 7px 20px 7px #acc8;
+    animation: animate 2s linear infinite;
     
 }
 
@@ -114,3 +119,20 @@ p.hero-new-serv-blk-p {
     }
     
 }
+
+
+/* @keyframes animate {
+    0%{
+        box-shadow: 0px 0px 0px 0px #e57777; 
+    }
+    25%{
+        box-shadow: 0px 0px 8px 3px #e57777;
+    }
+    75%{
+        box-shadow: 0px 0px 8px 3px #f19999;
+    }
+    100%{
+        box-shadow: 0px 0px 0px 0px #e57777;
+    }
+    
+} */
