@@ -11,6 +11,7 @@ import StickyCta from './components/stickyelement/StickyCta';
 import Blobanm from './components/blob/Blobanm';
 import Industry from './components/homecontent/Industry';
 import Footer from './components/footer/Footer';
+import Contactus from './components/homecontent/Contactus';
 
 export const metadata = {
   title: "Create Next App",
@@ -27,6 +28,7 @@ export default function Home() {
       <Priceplan/>
       <StickyCta/>
       <Industry/>
+      <Contactus/>
       <Footer/>
       
       

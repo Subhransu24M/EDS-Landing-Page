@@ -20,25 +20,25 @@ const Whatwedo = () => {
                                         <li>
                                             <div className='lst-dv-blk'>
                                                 <div className='lst-icon'><BsCheckLg /></div>
-                                                <div className='lst-nm'>Website Design</div>
+                                                <div className='lst-nm'>Lead Generation</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div className='lst-dv-blk'>
                                                 <div className='lst-icon'><BsCheckLg /></div>
-                                                <div className='lst-nm'>E-comeerce Solutions</div>
+                                                <div className='lst-nm'>Shopping Ads</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div className='lst-dv-blk'>
                                                 <div className='lst-icon'><BsCheckLg /></div>
-                                                <div className='lst-nm'>App Development</div>
+                                                <div className='lst-nm'>App Marketing</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div className='lst-dv-blk'>
                                                 <div className='lst-icon'><BsCheckLg /></div>
-                                                <div className='lst-nm'>Brand Stratergy</div>
+                                                <div className='lst-nm'>Brand Awarness</div>
                                             </div>
                                         </li>
                                     </ul>

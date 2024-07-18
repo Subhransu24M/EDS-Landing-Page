@@ -38,7 +38,7 @@ const NavBar = () => {
                                 <Link className="nav-link" href="#casestudies" smooth="true" duration={500}>Case Studies</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#contactus" smooth="true" duration={500}>Contact us</Link>
+                                <Link className="nav-link" href="#contact-us" smooth="true" duration={500}>Contact us</Link>
                             </li>
 
                         </ul>

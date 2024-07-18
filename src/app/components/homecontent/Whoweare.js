@@ -15,8 +15,15 @@ const Whoweare = () => {
               <span className="wh-o-r-blk">Who we are</span>
               <h2 className="whr-snd">Elevate your brand with <br></br>our marketing magic</h2>
               <p>
-              If you're looking for the best 360 degree digital marketing services for your business, Elevate Digital Services is the perfect choice. We have over 10+ years of experience in the SEO, Social Media Marketing, Google Ads & Website Development and we know exactly </p>
+              If you're looking for the best website development & digital marketing services for your business, Elevate Digital Services is the perfect choice. We have over 10+ years of experience in the website development, SEO, Social Media Marketing & Google Ads and we know exactly </p>
               <ul className="wht-we-r-ul">
+              <li>
+                  <div className="whtweriblk">
+                  <div className="whtwericnblk"><BsCheckLg className="whtwericn"/></div>
+                  <div className="whtwericnblkli">How to improve website loading speed ?</div>
+                  </div>
+                  
+                </li>
                 <li>
                   <div className="whtweriblk">
                   <div className="whtwericnblk"><BsCheckLg className="whtwericn"/></div>
@@ -27,7 +34,21 @@ const Whoweare = () => {
                 <li>
                 <div className="whtweriblk">
                   <div className="whtwericnblk"><BsCheckLg className="whtwericn"/></div>
-                  <div className="whtwericnblkli">How to transform Your website rraffic into customers ?</div>
+                  <div className="whtwericnblkli">How to transform your website traffic into customers ?</div>
+                  </div>
+                </li>
+
+                <li>
+                <div className="whtweriblk">
+                  <div className="whtwericnblk"><BsCheckLg className="whtwericn"/></div>
+                  <div className="whtwericnblkli">How to improve sales on e-commerce website ?</div>
+                  </div>
+                </li>
+
+                <li>
+                <div className="whtweriblk">
+                  <div className="whtwericnblk"><BsCheckLg className="whtwericn"/></div>
+                  <div className="whtwericnblkli">How to generate leads for your business ?</div>
                   </div>
                 </li>
                 
