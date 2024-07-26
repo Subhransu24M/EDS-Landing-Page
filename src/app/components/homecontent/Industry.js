@@ -10,7 +10,7 @@ const Industry = () => {
   return (
     <>
     <div className='industry-work-blk'>
-        <h2 class="inds-sndhd">Industries We've Worked With</h2>
+        <h2 className="inds-sndhd">Industries We've Worked With</h2>
         <div className='container'>
             <div className='row'>
                 <div className='col-md-3 col-lg-2 col-xl-2 col-sm-6'>
