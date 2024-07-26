@@ -10,7 +10,7 @@ const Priceplan = () => {
             <h2 className='prc-pln-hd'>Flexible pricing plans. Any scale.</h2>
             <p className='prc-pln-p'>Whether you have a startup,small, medium and large business, we have a plan that aligns perfectly with your goals.</p>
             <div className='flex-btn-grp'>
-            <Link className="prcbtn" href="#">Chat with us</Link>
+            <Link className="prcbtn" href="https://api.whatsapp.com/send?phone=971526780437" target='_blank'>Chat with us</Link>
             <Link className="prcbtn" href="#">Let's Discuss</Link>
             </div>
             
