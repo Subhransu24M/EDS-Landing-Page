@@ -99,18 +99,38 @@ const WebForm = () => {
     const [emailid, setEmailid] = useState('');
     const [pnumber, setPnumber] = useState('');
     const [service, setService] = useState('');
+
+    const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState('');
+
+    const validateFields = () => {
+        const errors = {};
+
+        if (!bname) errors.bname = 'Business name is required *';
+        if (!fname) errors.fname = 'Customer name is required *';
+        if (!emailid) errors.emailid = 'Email ID is required';
+        else if (!/^\S+@\S+\.\S+$/.test(emailid)) errors.emailid = 'Enter a valid email address *';
+        
+        if (!pnumber) errors.pnumber = 'Phone number is required *';
+        else if (!/^\d{10}$/.test(pnumber)) errors.pnumber = 'Enter a valid 10-digit phone number';
+        
+        if (!service) errors.service = 'Please select a service *';
+        
+
+        setErrors(errors);
+        return Object.keys(errors).length === 0;
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (bname === "" || fname === "" || emailid === "" || pnumber === "" || service === "") {
-            alert("Please enter all the fields");
-            return false;
+        if (!validateFields()) {
+            return;
         }
 
         setLoading(true);
+        setMessage('');
 
         try {
             const response = await fetch('/api/sendEmailroute', {
@@ -122,20 +142,22 @@ const WebForm = () => {
                 body: JSON.stringify({ bname, fname, emailid, pnumber, service })
             });
 
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+
             const data = await response.json();
             console.log(data);
 
-            if (data.success) {
-                setMessage('Message sent successfully!');
+            if (response.ok) {
+                setMessage(data.message);
             } else {
-                setMessage('Message sent successfully!');
+                setMessage(data.error);
             }
         } catch (error) {
-            console.error('Error:', error);
+            setLoading(false);
             setMessage('An error occurred. Please try again later.');
         }
-
-        setLoading(false);
     };
 
     return (
@@ -149,16 +171,20 @@ const WebForm = () => {
 
                 <div className="mb-1">
                     <input type="text" name="bname" className="form-control" id="exampleInputName" placeholder='Business Name' value={bname} onChange={(e) => setBname(e.target.value)} />
+                    {errors.bname && <span className="error-text">{errors.bname}</span>}
                 </div>
 
                 <div className="mb-1">
                     <input type="text" name="fname" className="form-control" id="exampleInputName" placeholder='Full Name' value={fname} onChange={(e) => setFname(e.target.value)} />
+                    {errors.fname && <span className="error-text">{errors.fname}</span>}
                 </div>
                 <div className="mb-1">
                     <input type="email" name="emailid" className="form-control" id="exampleInputEmail" placeholder='Email Id' value={emailid} onChange={(e) => setEmailid(e.target.value)} />
+                    {errors.emailid && <span className="error-text">{errors.emailid}</span>}
                 </div>
                 <div className="mb-1">
                     <input type="tel" name="pnumber" className="form-control" id="exampleInputTel" placeholder='Mobile Number' value={pnumber} onChange={(e) => setPnumber(e.target.value)} />
+                    {errors.pnumber && <span className="error-text">{errors.pnumber}</span>}
                 </div>
                 <div className="mb-1">
                     <label htmlFor="exampleInputService" className="form-label">Select Service</label>
@@ -172,6 +198,7 @@ const WebForm = () => {
                         <option value="Social Media Marketing">Social Media Marketing</option>
                         <option value="Google Ads">Google Ads</option>
                     </select>
+                    {errors.service && <span className="error-text">{errors.service}</span>}
                 </div>
 
                 <div className='frm-btn-blk'>
