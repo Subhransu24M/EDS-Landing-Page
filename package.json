@@ -2,7 +2,7 @@
   "name": "eds",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://ae.elevatedigitalservices.com",
+  "homepage": "http://ae.elevatedigitalservices.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +19,8 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "swiper": "^11.1.5"
   },
   "devDependencies": {

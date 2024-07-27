@@ -56,8 +56,8 @@ const Contactus = () => {
                                             <TfiEmail className='ftr-cnticn' />
                                         </div>
                                         <div className='ftr-cnt-p'>
-                                            <p>inquiry@elevatedigitalservices.com</p>
-                                            <Link href="mailto:inquiry@elevatedigitalservices.com" className='ftr-cnt-lnk-txt'>SEND EMAIL</Link>
+                                            <p>info@elevatedigitalservices.com</p>
+                                            <Link href="mailto:info@elevatedigitalservices.com" className='ftr-cnt-lnk-txt'>SEND EMAIL</Link>
 
                                         </div>
                                     </div>
