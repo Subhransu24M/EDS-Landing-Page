@@ -63,8 +63,10 @@ window.dataLayer = window.dataLayer || [];
         <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
 
         {/* Google Tag Manager (noscript)  */}
-        {/* <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTHP2MZV"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> */}
+        <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTHP2MZV"
+          height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe>
+          </noscript>
         {/* End Google Tag Manager (noscript) */}
       </body>
     </html>
