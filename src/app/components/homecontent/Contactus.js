@@ -5,11 +5,6 @@ import { BsTelephone } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { TfiEmail } from "react-icons/tfi";
 import Link from 'next/link';
-import Image from 'next/image';
-import fcimg from '../../icons/facebook.png';
-import insimg from '../../icons/instagram.png';
-import lnkimg from '../../icons/linkedin.png';
-import twtimg from '../../icons/twitter.png';
 const Contactus = () => {
     return (
         <>
@@ -66,18 +61,18 @@ const Contactus = () => {
                                     <h4>Follow us on</h4>
                                     <div className='scl-icn-blk'>
                                         <div className='scl-icn'>
-                                            <Link href="https://www.facebook.com/Elevatedigitalservices" target='_blank'><Image src={fcimg}></Image></Link>
+                                            <Link href="https://www.facebook.com/Elevatedigitalservices" target='_blank'><img src="/social-icons/facebook.png" alt="elevate digital services facebook link" fetchPriority='high' loading='lazy'/></Link>
                                         </div>
                                         
                                         <div className='scl-icn'>
-                                            <Link href="https://www.instagram.com/elevatedigitalservices/" target='_blank'><Image src={insimg}></Image></Link>
+                                            <Link href="https://www.instagram.com/elevatedigitalservices/" target='_blank'><img src="/social-icons/instagram.png" alt="elevate digital services instagram link" fetchPriority='high' loading='lazy'/></Link>
                                         </div>
                                         
                                         <div className='scl-icn'>
-                                        <Link href="https://www.linkedin.com/company/elevate-digital-services" target='_blank'><Image src={lnkimg}></Image></Link>
+                                        <Link href="https://www.linkedin.com/company/elevate-digital-services" target='_blank'><img src="/social-icons/linkedin.png" alt="elevate digital services linkedin link" fetchPriority='high' loading='lazy'/></Link>
                                         </div>
                                         <div className='scl-icn'>
-                                        <Link href="https://x.com/ServicesElevate?mx=2" target='_blank'><Image src={twtimg}></Image></Link>
+                                        <Link href="https://x.com/ServicesElevate?mx=2" target='_blank'><img src="/social-icons/twitter.png" alt="elevate digital services twitter link" fetchPriority='high' loading='lazy'/></Link>
                                         </div>
                                     </div>
                                 </div>

@@ -1,7 +1,4 @@
 import "./whoweare.css";
-import whoweareimg from '@/app/images/brand.png';
-import whoweareanalyticsimg from '@/app/images/analytics.jpg';
-import Image from "next/image";
 import { BsCheckLg } from "react-icons/bs";
 const Whoweare = () => {
   return (
@@ -58,10 +55,10 @@ const Whoweare = () => {
           <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12 col-xs-12">
             <div className="whoweare-img-blk">
             <div className="whoweare-img">
-              <Image src={whoweareimg} alt="digital amrketing services uae" width="100%" height="auto" />
+              <img src="/images/brand.png" alt="digital amrketing services uae" width="100%" height="auto" loading="lazy" fetchPriority="high" />
             </div>
             <div className="whoweare-img">
-              <Image className="analyimg" src={whoweareanalyticsimg} alt="digital amrketing services uae" width="100%" height="auto" />
+              <img className="analyimg" src="/images/analytics.jpg" alt="digital amrketing services uae" width="100%" height="auto" loading="lazy" fetchPriority="high" />
             </div>
             </div>
           </div>

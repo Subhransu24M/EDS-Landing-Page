@@ -1,8 +1,5 @@
 import './whatwedo.css';
 import { BsCheckLg } from "react-icons/bs";
-import conversionimg from '../../images/conversion.png';
-import webdesignimg from '../../images/web-design.png';
-import Image from 'next/image';
 const Whatwedo = () => {
     return (
         <>
@@ -81,7 +78,7 @@ const Whatwedo = () => {
                             <p className='wht-low-spn'>uncover opportunities</p>
                             <p className='wht-low-spn'>Boost conversions, </p> 
                             </div>
-                                <Image src={conversionimg} alt="digital marketing service" width={500} height={500}/>
+                                <img src="/images/conversion.png" alt="digital marketing service" width="500" height="auto" fetchPriority="high"  loading="lazy"/>
                             </div>
                         </div>
                     </div>
@@ -102,7 +99,7 @@ const Whatwedo = () => {
                             </div>
                             
                             <div className='whwd-rgt-img'>
-                                <Image src={webdesignimg} alt="digital marketing service" width={500} height={500}/>
+                                <img src="/images/web-design.png" alt="digital marketing service" width="500" height="auto" fetchPriority="high"  loading="lazy"/>
                             </div>
                         </div>
                     </div>
@@ -171,13 +168,7 @@ const Whatwedo = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                        <div className='whwd-rgt-img-blk'>
-                            <div className='whwd-rgt-img'>
-                                <Image src={webdesignimg} alt="digital marketing service" width={500} height={500}/>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                 </div>
             </div>
         </div>

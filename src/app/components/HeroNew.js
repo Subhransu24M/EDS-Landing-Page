@@ -1,16 +1,17 @@
 import './heronew.css';
 import WebForm from './WebForm';
-import Image from 'next/image';
-import code from '@/app/icons/coding-4.png'
-import seo from '@/app/icons/seo-3.png';
-import smo from '@/app/icons/sm-2.png';
-import gads from '@/app/icons/adwords-1.png';
 
 
 const HeroNew = () => {
+    const backgroundimage = "/images/eds-bg.svg";
     return (
         <>
-            <div className='hero-bg-blk'>
+            <div className='hero-bg-blk' style={{
+          backgroundImage: `url(${backgroundimage})`,
+          backgroundPosition: "right",
+          backgroundRepeat:"no-repeat",
+          backgroundSize:"30%",
+        }}>
                 <div className='herpnew-blk'>
                     <div className='hero-cnt-blk'>
                         <div className='container'>
@@ -27,25 +28,25 @@ const HeroNew = () => {
                                         <div className='row her-blk-row'>
                                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6'>
                                                 <div className='hero-new-serv-blk'>
-                                                    <Image src={code} alt="wevbsite & app development" width={40} height={40} />
+                                                    <img src="/images/coding-4.png" alt="wevbsite & app development" width="40" height="40" loading="lazy" priority="true"/>
                                                     <p className='hero-new-serv-blk-p'>Website & App Development</p>
                                                 </div>
                                             </div>
                                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6'>
                                                 <div className='hero-new-serv-blk'>
-                                                    <Image src={seo} alt="seo service in duabi" width={40} height={40} />
+                                                    <img src="/images/seo-3.png" alt="seo service in duabi" width="40" height="40" loading="lazy" priority="true"/>
                                                     <p className='hero-new-serv-blk-p'>Search Engine Optimisaiton</p>
                                                 </div>
                                             </div>
                                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6'>
                                                 <div className='hero-new-serv-blk'>
-                                                    <Image src={smo} alt="social media marketing service" width={40} height={40} />
+                                                    <img src="/images/sm-2.png" alt="social media marketing service" width="40" height="40" loading="lazy" priority="true"/>
                                                     <p className='hero-new-serv-blk-p'>Social Media Marketing</p>
                                                 </div>
                                             </div>
                                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6'>
                                                 <div className='hero-new-serv-blk'>
-                                                    <Image src={gads} alt="Google ads service" width={40} height={40} />
+                                                    <img src="/images/adwords-1.png" alt="Google ads service" width="40" height="40" loading="lazy" priority="true"/>
                                                     <p className='hero-new-serv-blk-p'>Google Advertisement</p>
                                                 </div>
                                             </div>

@@ -1,6 +1,4 @@
 import './homecontent.css';
-import digitalmarketingimg from '@/app/bg-image/dubai-bg-1.jpg';
-import Image from 'next/image';
 import ServiceSection from './ServiceSection';
 
 const HomeContent = () => {
@@ -18,7 +16,7 @@ const HomeContent = () => {
                     <div className='col-md-12 col-xl-6 col-lg-6 col-sm-12 col-xs-12'>
                         <div className='rgt-img-blk'>
                             <div className='rgt-img-blk-img'>
-                                <Image src={digitalmarketingimg} alt="Digital Marketing Services Dubai" />
+                                <img src="/bg-images/dubai-bg-1.jpg" alt="Digital Marketing Services Dubai" fetchPriority='high' loading='lazy'/>
                             </div>
 
                             <div className='p-rght'>

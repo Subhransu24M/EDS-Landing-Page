@@ -1,25 +1,13 @@
-import edslogo from '@/app/logo/eds-logo.svg';
-import Image from 'next/image';
 import Link from 'next/link';
-import callicon from '@/app/icons/phone-call.png';
-// import { Link } from 'react-scroll';
-
 import './navbar.css';
 
 const NavBar = () => {
     return (
-        // <nav>
-        //     <div className="container nav-blk">
-        //         <div className="logo">
-        //             <Image src={edslogo} width={100} height={100} alt="elevate digital services"/>
-        //         </div>
-        //     </div>
-        // </nav>
         <>
             <nav className="navbar navbar-expand-lg bg-white sticky-top">
                 <div className="container">
                     <div className="logo">
-                        <Image src={edslogo} width={75} height={75} alt="elevate digital services" />
+                        <img src="/logo/eds-logo.svg" width="75" height="75" alt="elevate digital services" fetchPriority='high' loading='lazy'/>
                     </div>
                     
                     <div className="collapse navbar-collapse" id="navbarNav">
@@ -45,7 +33,7 @@ const NavBar = () => {
                     </div>
 
                     <div className='nav-cta'>
-                    <Link href="tel:971526780437"><Image src={callicon} alt="call icon" width={22} height={22} /> <span className='telnum'>+971 52 678 0437</span></Link>
+                    <Link href="tel:971526780437"><img src="/icons/phone-call.png" alt="call icon" width="22" height="22" fetchPriority='high' loading='lazy'/> <span className='telnum'>+971 52 678 0437</span></Link>
                     </div>
                 </div>
             </nav>
