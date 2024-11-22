@@ -56,7 +56,7 @@ window.dataLayer = window.dataLayer || [];
         {/* End Google Tag Manager  */}
           
           {/* MS Clarity Script */}
-        <Script type="text/javascript" id="MSC-clarity">
+        {/* <Script type="text/javascript" id="MSC-clarity">
           {`
             (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -64,7 +64,7 @@ window.dataLayer = window.dataLayer || [];
              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
              })(window, document, "clarity", "script", "o1wubcrbmn");
           `}
-        </Script>
+        </Script> */}
           {/* MS Clarity Script Ends */}
 
 
